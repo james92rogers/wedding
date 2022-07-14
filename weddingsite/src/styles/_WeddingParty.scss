@@ -1,0 +1,61 @@
+@import 'Fonts';
+
+.weddingparty {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    margin: 0 auto;
+
+    .side {
+        width: 400px;
+    }
+
+    .headmember {
+        border-bottom: 1px solid grey;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h3 {
+        text-decoration: underline;
+        font-family: $dancing;
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    h4 {
+        font-family: $josefin;
+        width: 100%;
+        text-align: center;
+        margin: 10px auto;
+        font-size: 18px;
+    }
+
+    img {
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    .italic {
+        font-style: italic;
+    }
+
+    .members {
+
+
+        .member {
+            display: flex;
+            flex-direction: column;
+
+
+            img {
+                width: 300px;
+                margin: 0 auto;
+            }
+        }
+    }
+
+    
+}

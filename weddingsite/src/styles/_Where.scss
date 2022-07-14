@@ -1,0 +1,31 @@
+@import 'Fonts';
+
+.where-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img {
+        width: 790px;
+        margin-bottom: 20px;
+
+    }
+
+
+    .text {
+        width: 790px;
+    }
+
+    p {
+        margin: 5px;
+        font-family: $josefin;
+    }
+
+    .address {
+        margin-bottom: 20px;
+    }
+
+    .travel {
+        text-align: center;
+    }
+}
