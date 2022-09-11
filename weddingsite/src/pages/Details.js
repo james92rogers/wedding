@@ -52,12 +52,11 @@ const Details = () => {
                   </p>
                   <p className="subheading">For Evening Guests:</p>
                   <p>
-                    Entry for evening guests will be allowed from 6pm onwards
-                    for the reception. Light canapes will be provided in the
-                    evening.
+                    Entry for evening guests will be from 6pm onwards for the
+                    reception. Light canapes will be provided in the evening.
                   </p>
                   <p className="ending">Carriages will be at 11pm</p>
-                  <p>Respectfully, this is an adult-only occaision.</p>
+                  <p>Respectfully, this is an adult-only occasion.</p>
                 </div>
               </div>
             </div>
