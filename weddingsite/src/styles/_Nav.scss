@@ -33,6 +33,18 @@
             color: $orange;
         }
     }
+}
 
-    
+@media screen and (max-width: 600px) {
+
+    .navbar {
+    .navlist {
+        display: flex;
+        justify-content: center;
+    }
+
+    a {
+        font-size: 12px;
+}
+}
 }

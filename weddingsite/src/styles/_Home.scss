@@ -61,3 +61,23 @@
         font-family: $dancing;
     }
 }
+
+@media screen and (max-width: 600px) {
+    .home-page{
+        text-align: center;
+
+    .couple-image {
+        width: 350px;
+    }
+
+    #timer {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 20px;
+        width: 90vw;
+        margin: 20px 0;
+    }
+}
+}

@@ -38,8 +38,30 @@ margin: 10px;
         height: 300px;
         object-position: 0 0;
     }
-
-
+}
 }
 
+@media screen and (max-width: 600px){
+    .about {
+        img {
+            height: 200px;
+            object-position: 0% 0px;
+        }
+
+        .about-section {
+            display: flex;
+            flex-direction: column-reverse;
+            width: 80vw;
+
+            p {
+                width: 80vw;
+                text-align: center;
+            }
+        }
+
+        #middleAboutSection {
+            display: flex;
+            flex-direction: column;
+        }
+    }
 }

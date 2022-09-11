@@ -42,7 +42,7 @@ const TwoForm = () => {
         <label htmFor="diet2">Dietary Requirements for Guest Two:</label>
         <input type="text" id="diet2" name="diet2" />
 
-        <input type="submit" className="submit" />
+        <input type="submit" className="submit" value="Submit" />
       </form>
     </div>
   );

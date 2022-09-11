@@ -11,11 +11,8 @@
         height: 400px;
         object-fit: cover;
         object-position: 0% -250px;
-
         margin-bottom: 20px;
-
     }
-
 
     .text {
         width: 70vw;
@@ -129,6 +126,45 @@
         }
     }
     }
+}
 
+@media screen and (max-width: 600px) {
+    .details-page {
+        img {
+            height: 200px;
+            object-position: 0% -10px;
+        }
 
+        .text {
+            width: 80vw;
+
+        .section {
+
+            .sectionText {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+             p {
+                width: 80vw;
+             }
+        }
+
+        #addressSection {
+            display: flex;
+            flex-direction: column-reverse;
+        }
+
+        .hotels {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .centre-text{
+            width: 80vw;
+            margin: 0;
+        }
+    }
+}
+}
 }

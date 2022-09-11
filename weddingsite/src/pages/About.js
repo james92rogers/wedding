@@ -29,7 +29,7 @@ const About = () => {
             </p>
             <img className="pic1" src={pic1} alt="James and Steph early days" />
           </div>
-          <div className="about-section">
+          <div className="about-section" id="middleAboutSection">
             <img className="pic2" src={pic2} alt="James and Steph in Sydney" />
             <p>
               They started dating in late 2017 and never looked back, unless

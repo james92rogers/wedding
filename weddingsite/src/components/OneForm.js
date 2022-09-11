@@ -23,7 +23,7 @@ const OneForm = () => {
         </div>
         <label htmlFor="diet">Dietary Requirements:</label>
         <input type="text" id="diet" name="diet" />
-        <input type="submit" className="submit" />
+        <input type="submit" className="submit" value="Submit" />
       </form>
     </div>
   );

@@ -17,7 +17,7 @@ const Details = () => {
           <div className="text">
             <div className="section">
               <h4 className="section-header">Where?</h4>
-              <div className="sectionText">
+              <div className="sectionText" id="addressSection">
                 <div>
                   <p className="address">
                     Both the ceremony and the reception will take place at
