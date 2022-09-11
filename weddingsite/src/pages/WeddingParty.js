@@ -7,6 +7,8 @@ import chia from "../assets/chia.png";
 import sammi from "../assets/sammi.png";
 import grace from "../assets/grace.png";
 import jon from "../assets/jon.png";
+import ronnie from "../assets/ronnie.png";
+import sam from "../assets/sam.png";
 import { getLogin } from "../helpers/auth";
 import LoggedOut from "../components/LoggedOut";
 
@@ -61,6 +63,7 @@ const WeddingParty = () => {
               </div>
               <div className="member">
                 <h4>Ronnie Parratt</h4>
+                <img src={ronnie} />
                 <p>
                   The nephew of the bride, Ronnie will likely claim he has
                   defeated James at football in the garden, Badminton at Center
@@ -83,7 +86,7 @@ const WeddingParty = () => {
           <div className="side">
             <div className="headmember">
               <h3>The Maid of Honour:</h3>
-              <h4>Sophie Bowie</h4>
+              <h4>Sophie Scowen</h4>
               <img src={chia} />
               <p>
                 Sophie and Steph met when Sophie patiently trained Steph in the
@@ -138,6 +141,7 @@ const WeddingParty = () => {
               </div>
               <div className="member">
                 <h4>Sam Neuchterlien</h4>
+                <img src={sam} />
                 <p>
                   Another University survivor, Sam and Steph connected via a
                   Facebook group (remember them?!) before starting way back in
