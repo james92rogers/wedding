@@ -1,0 +1,134 @@
+@import 'Fonts';
+@import 'Colors';
+
+.details-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img {
+        width: 80vw;
+        height: 400px;
+        object-fit: cover;
+        object-position: 0% -250px;
+
+        margin-bottom: 20px;
+
+    }
+
+
+    .text {
+        width: 70vw;
+    }
+
+    p {
+        margin: 5px;
+        font-family: $josefin;
+    }
+
+    .section {
+        margin-bottom: 20px;
+        padding: 10px 0;
+        border-top: 1px solid $pink;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .section-header {
+            color: $pink;
+            margin: 0;
+            margin-bottom: 10px;
+            padding: 5px;
+        }
+
+        .sectionText {
+            width: 90%;
+            display: flex;
+            justify-content: space-between;
+
+            p {
+                width: 80%;
+            }
+        
+
+            img {
+                height: 250px;
+                width: 250px;
+                object-position: 0 0;
+            }
+
+            .address {
+                padding-bottom: 10px
+            }
+
+            .venue-info {
+                padding-top: 10px;
+            }
+
+            .subheading {
+                margin: 10px 5px;
+            }
+
+            .ending {
+                padding: 10px 0;
+            }
+
+            .centre-text {
+                text-align: center;
+                width: 80%;
+                margin: 10px auto;
+            }
+
+            .hotel-info {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            
+
+            .hotels {
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+            
+
+            .hotel {
+                margin: 15px 0;
+                max-width: 30%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+
+
+                
+
+                .title {
+                    font-weight: bold;
+                    margin-bottom: 5px;
+
+                }
+
+                .instructions {
+                    margin-top: 10px;
+                }
+
+                a {
+                    text-decoration: none;
+                    font-family: $josefin;
+                    color: $pink;
+                    margin-top: 5px;
+                }
+
+                a:hover {
+                    text-decoration: underline;
+                    color: $orange;
+                }
+            
+            }
+        }
+        }
+    }
+    }
+
+
+}

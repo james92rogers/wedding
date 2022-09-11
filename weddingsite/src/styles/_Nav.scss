@@ -1,4 +1,5 @@
 @import 'Fonts';
+@import 'Colors';
 
 .navbar {
     height: 50px;
@@ -25,7 +26,11 @@
         a {
             text-decoration: none;
             font-family: $josefin;
-            color: black;
+            color: $pink;
+        }
+
+        a:hover {
+            color: $orange;
         }
     }
 

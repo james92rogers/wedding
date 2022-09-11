@@ -1,8 +1,14 @@
+@import './styles/Colors';
 @import './styles/Fonts';
 @import './styles/Nav';
 @import './styles/Home';
-@import './styles/Where';
+@import './styles/Details';
 @import './styles/WeddingParty';
+@import './styles/Login';
+@import './styles/RSVP';
+@import './styles/LoggedOut';
+@import './styles/Form';
+@import './styles/About';
 
 * {
     box-sizing: border-box;

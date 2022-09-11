@@ -9,8 +9,18 @@
 
     .images {
         position: relative;
-        border-bottom: 1px solid grey;
+       // border-bottom: 1px solid grey;
         margin-bottom: 20px;
+    }
+
+    #timer {
+        font-family: $dancing;
+        font-size: 24px;
+        padding: 20px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        border-bottom: 1px solid grey;
+        border-top: 1px solid grey;
     }
 
     
@@ -35,7 +45,19 @@
         text-align: center;
         padding: 0;
         margin: 10px;
-        font-weight: bold;
+//         font-weight: bold;
 
+    }
+}
+
+.formFeedback {
+    width: 100vw;
+    height: calc(100vh - 50px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    p {
+        font-family: $dancing;
     }
 }

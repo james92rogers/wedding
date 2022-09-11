@@ -1,0 +1,29 @@
+@import './Fonts';
+@import './Colors';
+
+.rsvp {
+    .content {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        font-family: $josefin;
+
+        .guest-check {
+            display: flex;
+            align-items: center;
+            margin-top: 50px;
+
+            .number {
+                height: 20px;
+                margin: 5px;
+            }
+
+            input {
+                width: 40px;
+            }
+        }
+    }
+}

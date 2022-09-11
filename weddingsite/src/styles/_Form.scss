@@ -1,0 +1,48 @@
+@import './Colors';
+@import './Fonts';
+
+.testform {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+    input {
+        margin: 5px 0;
+    }
+
+    .radios {
+        margin: 10px 0;
+        display: flex;
+        align-items: center;
+    }
+
+    .radios:nth-child(1){
+        margin-right: 100px;
+    }
+
+    .radio {
+        margin: 5px;
+        display: flex;
+        align-items: center;
+
+        input {
+            margin: 0 5px;
+        }
+    }
+
+    .guest2 {
+        margin-top: 10px;
+    }
+
+    .submit {
+        margin: 10px 0;
+        background-color: transparent;
+        border: none;
+        font-family: $dancing;
+        font-size: 24px;
+    }
+
+    .submit:hover {
+        color: $pink;
+    }
+}

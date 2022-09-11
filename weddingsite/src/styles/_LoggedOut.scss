@@ -1,0 +1,28 @@
+@import './Colors';
+@import './Fonts';
+
+.loggedOut {
+    width: 100vw;
+    height: calc(100vh - 50px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    p {
+
+        font-family: $dancing;
+        color: black;
+        font-size: 30px;
+        font-weight: 400;
+    }
+
+    a {
+        color: $pink
+    }
+
+    a:hover {
+        color: $orange
+    }
+
+
+}
