@@ -14,7 +14,7 @@ function App() {
   return (
     <BrowserRouter>
       <header className="App-header">
-        <Nav />
+        <Nav location={window.location.href} />
       </header>
       <body>
         <Routes>

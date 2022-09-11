@@ -10,8 +10,6 @@ const RSVP = () => {
 
   const handleChange = (event) => {
     setEntrants(Number(event.target.value));
-    console.log(event.target.value);
-    console.log(typeof event.target.value);
   };
 
   useEffect(() => {}, [entrants]);

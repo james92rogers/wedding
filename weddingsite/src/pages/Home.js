@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import drawing from "../assets/header.jpg";
 import wreath from "../assets/wreath.png";
 import LoggedOut from "../components/LoggedOut";
@@ -6,25 +6,27 @@ import { getLogin } from "../helpers/auth";
 
 const Home = () => {
   const userLoggedIn = getLogin();
-
   const countDownDate = new Date("Sep 11, 2023 13:00:00").getTime();
 
-  const myfunc = setInterval(function () {
-    // code goes here
-    const now = new Date().getTime();
-    const timeleft = countDownDate - now;
+  useEffect(() => {
+    const myfunc = setInterval(function () {
+      const now = new Date().getTime();
+      const timeleft = countDownDate - now;
 
-    const days = Math.floor(timeleft / (1000 * 60 * 60 * 24));
-    const hours = Math.floor(
-      (timeleft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
-    );
-    const minutes = Math.floor((timeleft % (1000 * 60 * 60)) / (1000 * 60));
-    const seconds = Math.floor((timeleft % (1000 * 60)) / 1000);
+      const days = Math.floor(timeleft / (1000 * 60 * 60 * 24));
+      const hours = Math.floor(
+        (timeleft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+      );
+      const minutes = Math.floor((timeleft % (1000 * 60 * 60)) / (1000 * 60));
+      const seconds = Math.floor((timeleft % (1000 * 60)) / 1000);
 
-    document.getElementById(
-      "timer"
-    ).innerHTML = `${days} days, ${hours} hours, ${minutes} minutes, ${seconds} seconds until the big day`;
-  }, 1000);
+      document.getElementById(
+        "timer"
+      ).innerHTML = `${days} days, ${hours} hours, ${minutes} minutes, ${seconds} seconds until the big day`;
+    }, 1000);
+
+    return () => clearInterval(myfunc);
+  });
 
   return (
     <div className="home-page">
