@@ -41,7 +41,13 @@ const TwoForm = () => {
         </div>
         <label htmFor="diet2">Dietary Requirements for Guest Two:</label>
         <input type="text" id="diet2" name="diet2" />
-
+        <label htmlFor="email">Contact Email:</label>
+        <input
+          type="email"
+          placeholder="example@example.com"
+          id="email"
+          name="email"
+        />
         <input type="submit" className="submit" value="Submit" />
       </form>
     </div>
