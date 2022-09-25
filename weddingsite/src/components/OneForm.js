@@ -24,12 +24,7 @@ const OneForm = () => {
         <label htmlFor="diet">Dietary Requirements:</label>
         <input type="text" id="diet" name="diet" />
         <label htmlFor="email">Contact Email:</label>
-        <input
-          type="email"
-          placeholder="example@example.com"
-          id="email"
-          name="email"
-        />
+        <input type="email" id="email" name="email" />
         <input type="submit" className="submit" value="Submit" />
       </form>
     </div>

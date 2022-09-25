@@ -47,7 +47,9 @@ const WeddingParty = () => {
                   The younger brother of the groom, Henry and James have spent
                   many years (well, their entire lives really)
                   discussing/arguing about music, sports, movies, games, and
-                  anything else they can think about.
+                  anything else they can think about. Luckily whenever a
+                  disagreement is too big, their shared loved of Plymouth Argyle
+                  manages to restore the peace.
                 </p>
               </div>
               <div className="member">
@@ -55,10 +57,10 @@ const WeddingParty = () => {
                 <img src={ed} />
                 <p>
                   The older brother of the groom, Ed and James enjoy spending
-                  their time teaming up to take the mick out of whoever is near
-                  them... so mostly Henry. Now they talk to each other almost
-                  entirely in the form of memes or using quotes from old
-                  Simpsons episodes.
+                  their time teaming up to take the mick out of whoever is
+                  nearest them... so most of the time that happens to be Henry.
+                  Now they talk to each other almost entirely in the form of
+                  memes or using quotes from old Simpsons episodes.
                 </p>
               </div>
               <div className="member">
@@ -76,9 +78,12 @@ const WeddingParty = () => {
                 <img src={aidan} />
                 <p>
                   Aidan and James first met when Aidan took a job that James was
-                  after. They should have been enemies, but instead formed an
-                  alliance based on a love of drinking, eating fast food, and
-                  playing air guitars on the sofa to Fall Out Boy.
+                  after. They should have been enemies, but instead the two of
+                  them formed an alliance based on a love of drinking, eating
+                  fast food, and playing air guitars on the sofa to Fall Out
+                  Boy. When around each other, expect to hear terrible
+                  Australian accents, as well as the phrases 'Awww yeah' and 'Ya
+                  drongo' used frequently.
                 </p>
               </div>
             </div>
