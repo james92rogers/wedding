@@ -5,12 +5,15 @@
     display: flex;
     flex-direction: column;
     padding: 10px;
+    font-family: $garamond;
 
     input {
         margin: 5px 0px 10px 0px;
         background-color: transparent;
         border: 1px solid black;
         color: $pink;
+        font-family: $garamond;
+        font-size: 14px;
     }
 
     .radios {
@@ -46,7 +49,7 @@
     }
 
     .submit:hover {
-        color: $pink;
+        color: $orange;
         
     }
 }

@@ -9,7 +9,8 @@
         flex-direction: column;
         align-items: center;
 
-        font-family: $josefin;
+        font-family: $garamond;
+        font-size: 20px;
 
         .guest-check {
             display: flex;
@@ -25,6 +26,8 @@
                 width: 35px;
                 border: none;
                 background-color: transparent;
+                font-family: $garamond;
+                font-size: 22px;
             }
         }
     }
