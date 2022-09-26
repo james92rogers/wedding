@@ -6,6 +6,12 @@
     flex-direction: column;
     align-items: center;
 
+    h4 {
+        font-family: $garamond;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
     .image {
 
         
@@ -25,7 +31,9 @@
 
     p {
         margin: 5px;
-        font-family: $josefin;
+        font-family: $garamond;
+        font-size: 20px;
+        font-weight: 500;
     }
 
     #top-section {
@@ -40,7 +48,6 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        background-color: rgba(255, 255, 255, 0.3);
 
         .section-header {
             color: $pink;
@@ -88,9 +95,10 @@
                
                 a {
                     text-decoration: none;
-                    font-family: $josefin;
+                    font-family: $garamond;
                     color: $pink;
                     margin-top: 5px;
+                    font-weight: bold;
                 }
 
                 a:hover {

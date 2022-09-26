@@ -16,14 +16,14 @@
 
 body {
     overflow-x: hidden;
-    background-image: url('./assets/background.jpg');
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)),url('./assets/background.jpg');
     background-size: cover;
     background-attachment: fixed;
 }
 
 @media screen and (max-width: 600px) {
     body {
-        background-image: url('./assets/background.jpg');
+        background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)),url('./assets/background.jpg');
         background-size: contain;
     }
 }
