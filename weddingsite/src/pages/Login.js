@@ -18,7 +18,7 @@ const Login = () => {
 
   const handleSubmit = () => {
     setError(false);
-    if (password === "StephJamesWedding") {
+    if (password === "LetsGetMarried") {
       setLogin(true);
       navigate("/home");
     } else {

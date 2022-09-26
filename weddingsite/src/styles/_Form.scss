@@ -8,6 +8,9 @@
 
     input {
         margin: 5px 0px 10px 0px;
+        background-color: transparent;
+        border: 1px solid black;
+        color: $pink;
     }
 
     .radios {
@@ -44,5 +47,6 @@
 
     .submit:hover {
         color: $pink;
+        
     }
 }

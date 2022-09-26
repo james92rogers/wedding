@@ -2,8 +2,7 @@
 @import 'Colors';
 
 .navbar {
-    height: 50px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.6);
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -15,7 +14,6 @@
         display: flex;
         justify-content: flex-end;
         align-items: center;
-        border-bottom: 1px solid grey;
         padding: 0;
         margin: 0;
 

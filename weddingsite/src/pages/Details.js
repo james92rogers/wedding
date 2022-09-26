@@ -15,7 +15,7 @@ const Details = () => {
             <img src={castle} alt="Cooling Castle Barn" />
           </div>
           <div className="text">
-            <div className="section">
+            <div className="section" id="top-section">
               <h4 className="section-header">Where?</h4>
               <div className="sectionText" id="addressSection">
                 <div>
@@ -178,7 +178,14 @@ const Details = () => {
                   If you were considering getting us a gift to help us on our
                   way, your presence at our wedding is enough of a gift, but
                   should you wish to buy us something, we'd greatly appreciate a
-                  contribution towards our dream honeymoon.
+                  contribution towards our dream honeymoon, which you can do{" "}
+                  <a
+                    href="https://www.collectionpot.com/pot/3031734/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    here
+                  </a>
                 </p>
               </div>
             </div>

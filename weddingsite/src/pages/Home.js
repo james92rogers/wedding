@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
-import drawing from "../assets/header.jpg";
-import wreath from "../assets/wreath.png";
+import drawing from "../assets/hand_drawn_2.png";
 import LoggedOut from "../components/LoggedOut";
 import { getLogin } from "../helpers/auth";
 
