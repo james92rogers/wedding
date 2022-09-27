@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import castle from "../assets/Cooling-Castle-Barn.jpg";
 import map from "../assets/map.png";
 import LoggedOut from "../components/LoggedOut";
@@ -186,6 +187,18 @@ const Details = () => {
                   >
                     here
                   </a>
+                </p>
+              </div>
+            </div>
+            <div className="section">
+              <h4 className="section-header">RSVP</h4>
+              <div className="sectionText">
+                <p className="centre-text">
+                  To RSVP, there is a handy little form on this website that you
+                  can reach either by using the link above or clicking{" "}
+                  <Link to="/rsvp">here</Link>. Please RSVP by Sunday December
+                  18th 2022, and make sure to leave a contact email so we can
+                  get in touch regarding menu options closer to the date.
                 </p>
               </div>
             </div>

@@ -4,8 +4,11 @@
 .testform {
     display: flex;
     flex-direction: column;
+    align-items: center;
     padding: 10px;
     font-family: $garamond;
+    margin: 0 auto;
+    width: 400px;
 
     input {
         margin: 5px 0px 10px 0px;
@@ -14,6 +17,10 @@
         color: $pink;
         font-family: $garamond;
         font-size: 14px;
+    }
+
+    #name, #diet, #email, #name1, #name2, #diet1, #diet2, #email1, #email2 {
+        width: 250px;
     }
 
     .radios {
@@ -50,6 +57,5 @@
 
     .submit:hover {
         color: $orange;
-        
     }
 }
