@@ -37,6 +37,33 @@ const Details = () => {
                   <p className="venue-info">
                     Car parking is available on site for those who require it.
                   </p>
+                  <div className="taxis">
+                    <p>
+                      There are several local taxi companies that can help get
+                      you to and from the venue, as well as taxi ranks outside
+                      Chatham and Rochester train stations. We would recommend
+                      searching on google for a full list of providers, but here
+                      are a few options:
+                    </p>
+                    <div className="taxiOptions">
+                      <div className="option">
+                        <p className="taxi">Medway Cabs</p>
+                        <p className="number">01634 777666</p>
+                      </div>
+                      <div className="option">
+                        <p className="taxi">Vokes Taxis</p>
+                        <p className="number">01634 222222</p>
+                      </div>
+                      <div className="option">
+                        <p className="taxi">CNC Taxis</p>
+                        <p className="number">01634 302010</p>
+                      </div>
+                      <div className="option">
+                        <p className="taxi">Station Cabs</p>
+                        <p className="number">01634 244007</p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
                 <img src={map} alt="map to Cooling Castle Barn" />
               </div>
@@ -57,7 +84,14 @@ const Details = () => {
                     reception. Light canapes will be provided in the evening.
                   </p>
                   <p className="ending">Carriages will be at 11pm</p>
-                  <p>Respectfully, this is an adult-only occasion.</p>
+                  <p className="noKids">
+                    Respectfully, this is an adult-only occasion.
+                  </p>
+                  <p>
+                    We will be booking a space for some food and drinks on the
+                    Sunday evening. Anybody arriving the day before is welcome
+                    to join (venue to be confirmed).
+                  </p>
                 </div>
               </div>
             </div>

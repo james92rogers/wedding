@@ -80,12 +80,37 @@
                 padding-top: 10px;
             }
 
+            .taxis {
+                padding-top: 10px;
+
+                .taxiOptions {
+                    display: flex;
+                    justify-content: space-between;
+
+                    .option {
+                        display: flex;
+                        flex-direction: column;
+                        width: 150px;
+
+                    }
+                }
+
+                .taxi {
+                    font-weight: bold;
+                    padding-top: 5px;
+                }
+            }
+
             .subheading {
                 margin: 10px 5px;
             }
 
             .ending {
                 padding: 10px 0;
+            }
+
+            .noKids {
+                padding-bottom: 10px;
             }
 
             .centre-text {
@@ -181,6 +206,11 @@
              p {
                 width: 80vw;
              }
+
+             .taxiOptions {
+                display: flex;
+                flex-direction: column;
+            }
         }
 
         #addressSection {

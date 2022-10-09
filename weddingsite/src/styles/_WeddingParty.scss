@@ -2,9 +2,18 @@
 
 .weddingparty {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     width: 1000px;
     margin: 0 auto;
+
+    .content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 1000px;
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
 
     .side {
         width: 450px;
@@ -75,10 +84,49 @@
             }
         }
     }
+
+    .extra {
+        border-top: 1px solid black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 1000px;
+
+        .single-extra {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-bottom: 20px;
+        }
+
+        .double-extra {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-top: 1px solid black;
+            padding-bottom: 40px;
+
+            .extra-content {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                width: 1000px;
+            }
+
+            .extra-side {
+                display: flex;
+                flex-direction: column;
+                width: 400px;
+                align-items: center;
+            }
+        }
+    }
 }
 
 @media screen and (max-width: 600px) {
     .weddingparty {
+        width: 90vw;
+    .content {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -102,4 +150,22 @@
             align-items: center;
         }
     }
+
+        .extra {
+            width: 90vw;
+
+            .double-extra {
+                width: 90vw;
+            
+
+            .extra-content {
+                width: 90vw;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+        }
+    
+}
 }
