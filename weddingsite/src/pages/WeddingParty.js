@@ -143,7 +143,7 @@ const WeddingParty = () => {
                   <img src={jon} />
                   <p>
                     John is one of Steph’s oldest friends, meeting in first year
-                    of University they became more like siblings then friends.
+                    of University they became more like siblings than friends.
                     After playing silly pranks on each other, mostly John on
                     Steph, too many nights out, and the occasional session in
                     the library, John and Steph were best idiots forever! 13
