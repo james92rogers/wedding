@@ -175,13 +175,27 @@ const WeddingParty = () => {
               <h3>Master of Ceremonies:</h3>
               <h4>Harriet Sharp</h4>
               <img src={harri} />
-              <p>We'll put some text here about how wonderful Harriet is</p>
+              <p>
+                Harriet and Steph started at QVC around the same time, bonding
+                over a love of wine, 90's music, and being fancy B's. Harriet
+                quit the Q to become a successful freelance Art Director and an
+                all round amazing person but the wine nights continued. Steph
+                and James really wanted a Master of Ceremonies they knew and
+                could think of no one better for the job!
+              </p>
             </div>
             <div className="single-extra">
               <h3>Flower Girl:</h3>
               <h4>Maisie Madge</h4>
               <img src={maisie} />
-              <p>Here we'll put some text about how awesome Maisie is</p>
+              <p>
+                The youngest niece of the Bride, Maisie, is a ball of energy and
+                fun. Steph would love to think that she is the favourite, but
+                clearly it’s James. After a recent family trip to Center Parcs,
+                James spent hours playing games with her, cementing his position
+                as all round favourite Uncle. So on the day she'll be running up
+                the aisle to James!{" "}
+              </p>
             </div>
             <div className="double-extra">
               <h3>Family Members:</h3>
