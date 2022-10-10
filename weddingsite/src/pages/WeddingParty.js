@@ -193,8 +193,8 @@ const WeddingParty = () => {
                 fun. Steph would love to think that she is the favourite, but
                 clearly it’s James. After a recent family trip to Center Parcs,
                 James spent hours playing games with her, cementing his position
-                as all round favourite Uncle. So on the day she'll be running up
-                the aisle to James!{" "}
+                as the favourite Uncle. So on the day be prepared for her to be
+                running up the aisle to James!
               </p>
             </div>
             <div className="double-extra">
