@@ -204,7 +204,7 @@ const WeddingParty = () => {
                   <h3>Mother of the Groom:</h3>
                   <h4>Edel Greenwood</h4>
                   <img src={mum} />
-                  <h3>Father of the Grrom:</h3>
+                  <h3>Father of the Groom:</h3>
                   <h4>Ian Rogers</h4>
                   <img src={dad} />
                 </div>
