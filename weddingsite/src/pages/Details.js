@@ -106,7 +106,7 @@ const Details = () => {
                   </p>
                   <div className="hotels">
                     <div className="hotel">
-                      <p className="title">The HorseShoe and Cattle</p>
+                      <p className="title">The HorseShoe and Castle</p>
                       <p>Main Rd, Cooling</p>
                       <p>Rochester ME3 8DJ</p>
                       <p className="instructions">
