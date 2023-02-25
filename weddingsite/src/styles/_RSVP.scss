@@ -12,6 +12,17 @@
         font-family: $garamond;
         font-size: 20px;
 
+        .rsvp-text {
+            width: 40vw;
+            margin-top: 70px;
+            text-align: center;
+
+            .email-address {
+                font-size: 22px;
+                font-weight: bold;
+            }
+        }
+
         .guest-check {
             display: flex;
             align-items: center;
@@ -31,4 +42,17 @@
             }
         }
     }
+}
+
+@media screen and (max-width: 600px) {
+    .rsvp {
+        .content {
+            .rsvp-text {
+                width: 70vw;
+
+        }
+
+        }
+    }
+    
 }

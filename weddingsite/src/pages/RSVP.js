@@ -1,35 +1,22 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import LoggedOut from "../components/LoggedOut";
-import OneForm from "../components/OneForm";
-import TwoForm from "../components/TwoForm";
 import { getLogin } from "../helpers/auth";
 
 const RSVP = () => {
   const userLoggedIn = getLogin();
-  const [entrants, setEntrants] = useState(1);
-
-  const handleChange = (event) => {
-    setEntrants(Number(event.target.value));
-  };
-
-  useEffect(() => {}, [entrants]);
 
   return (
     <div className="rsvp">
       {userLoggedIn ? (
         <div className="content">
-          <div className="guest-check">
-            <p>How many people are you RSVPing for:</p>
-            <input
-              onChange={handleChange}
-              type="number"
-              min="1"
-              max="2"
-              value={entrants}
-              className="number"
-            />
+          <div className="rsvp-text">
+            <p>To RSVP please send an email to:</p>
+            <p className="email-address">pymmrogerswedding@gmail.com</p>
+            <p>
+              and let us know your name(s), if you are able to join us for our
+              special day, and any dietary requirements you may have.
+            </p>
           </div>
-          {entrants === 1 ? <OneForm /> : entrants === 2 ? <TwoForm /> : <></>}
         </div>
       ) : (
         <LoggedOut />
