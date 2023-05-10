@@ -228,11 +228,9 @@ const Details = () => {
               <h4 className="section-header">RSVP</h4>
               <div className="sectionText">
                 <p className="centre-text">
-                  To RSVP, there is a handy little form on this website that you
-                  can reach either by using the link above or clicking{" "}
-                  <Link to="/rsvp">here</Link>. Please RSVP by Sunday December
-                  18th 2022, and make sure to leave a contact email so we can
-                  get in touch regarding menu options closer to the date.
+                  To RSVP, please send an email to pymmrogerswedding@gmail.com
+                  and let us know your name(s), if you are able to join us for
+                  our special day, and any dietary requirements you may have.
                 </p>
               </div>
             </div>
