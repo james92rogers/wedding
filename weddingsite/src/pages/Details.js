@@ -90,7 +90,7 @@ const Details = () => {
                   <p>
                     We will be booking a space for some food and drinks on the
                     Sunday evening. Anybody arriving the day before is welcome
-                    to join (venue to be confirmed).
+                    to join us at the Ship and Trades in Chatham.
                   </p>
                 </div>
               </div>

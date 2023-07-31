@@ -15,6 +15,7 @@ import dad from "../assets/dad.png";
 import pymms from "../assets/stephenangie.png";
 import matt from "../assets/matt.png";
 import mum from "../assets/mum.png";
+import stacey from "../assets/stacey.png";
 import { getLogin } from "../helpers/auth";
 import LoggedOut from "../components/LoggedOut";
 
@@ -165,6 +166,20 @@ const WeddingParty = () => {
                     houses in Chester to trips to New York and Amsterdam and
                     everything in between, they have laughed the whole way
                     through.
+                  </p>
+                </div>
+                <div className="member">
+                  <h4>Stacey Lottes</h4>
+                  <img src={stacey} />
+                  <p>
+                    Stacey made a lasting impression on Steph the first time
+                    they met by shouting at a notoriously annoying lighting guy!
+                    Then years later, they moved onto the same shift and have
+                    been friends ever since. They have shared many drunken times
+                    together, including a trip to Brussels, many bbq's, and
+                    Christmas dinners! Stacey has always been amazing to Steph
+                    and even had the patience to train Steph in the ways of
+                    directing.
                   </p>
                 </div>
               </div>
